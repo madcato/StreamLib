@@ -1,0 +1,26 @@
+HKCR
+{
+	XB64ZLib.XB64ZLibObj.1 = s 'XB64ZLibObj Class'
+	{
+		CLSID = s '{D39F7E4F-B1B8-4BF7-8031-888B8CF13FA0}'
+	}
+	XB64ZLib.XB64ZLibObj = s 'XB64ZLibObj Class'
+	{
+		CLSID = s '{D39F7E4F-B1B8-4BF7-8031-888B8CF13FA0}'
+		CurVer = s 'XB64ZLib.XB64ZLibObj.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {D39F7E4F-B1B8-4BF7-8031-888B8CF13FA0} = s 'XB64ZLibObj Class'
+		{
+			ProgID = s 'XB64ZLib.XB64ZLibObj.1'
+			VersionIndependentProgID = s 'XB64ZLib.XB64ZLibObj'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{4680CEEC-46F3-4AC6-B0EE-CD9124F1C874}'
+		}
+	}
+}

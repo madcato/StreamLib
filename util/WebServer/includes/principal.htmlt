@@ -1,0 +1,10 @@
+<html>
+<body>
+
+<a href="/New?command=art">Nuevo artículo</a><br>
+<a href="/New?command=cat">Nueva categoría</a><br>
+<a href="/ArtList?command=list">Listar todos los artículos</a><br>
+<a href="/ArtList?command=listcat">Listar todas las categorías</a><br>
+
+</body>
+</html>

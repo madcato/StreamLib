@@ -1,0 +1,261 @@
+#Software: WebApp
+#Date: 03/11/05 12:55:46
+#OS: Microsoft Windows XP Professional Service Pack 2 (Build 2600)
+#IE: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ;Version 6.0.2900.2180
+03/11/05 12:55:46 TRACE: WebApp::configureControllers() start
+03/11/05 12:55:46 INFO: AddController: ArtList /ArtList
+03/11/05 12:55:46 INFO: AddController: CestList /CestList
+03/11/05 12:55:46 INFO: AddController: NewElement /New
+03/11/05 12:55:46 TRACE: WebApp::configureControllers() end
+03/11/05 12:55:46 TRACE: WebApp::configure() End
+03/11/05 12:55:46 TRACE: WebApp::run() start
+03/11/05 12:55:46 INFO: Process Id: 1532
+03/11/05 12:55:46 TRACE: Control::run() start
+03/11/05 12:55:54 TRACE: WebSession::run() start
+03/11/05 12:55:54 TRACE: start waiting for request
+03/11/05 12:55:54 TRACE: request received
+03/11/05 12:55:54 TRACE: request finished
+03/11/05 12:55:54 TRACE: response send
+03/11/05 12:55:54 TRACE: start waiting for request
+03/11/05 12:55:59 TRACE: request received
+03/11/05 12:55:59 TRACE: request finished
+03/11/05 12:55:59 TRACE: response send
+03/11/05 12:55:59 TRACE: start waiting for request
+03/11/05 12:56:01 TRACE: request received
+03/11/05 12:56:01 TRACE: request finished
+03/11/05 12:56:01 TRACE: response send
+03/11/05 12:56:01 TRACE: start waiting for request
+03/11/05 12:56:16 TRACE: request received
+03/11/05 12:56:16 TRACE: request finished
+03/11/05 12:56:16 TRACE: response send
+03/11/05 12:56:16 TRACE: start waiting for request
+03/11/05 12:56:17 TRACE: request received
+03/11/05 12:56:17 TRACE: request finished
+03/11/05 12:56:17 TRACE: response send
+03/11/05 12:56:17 TRACE: start waiting for request
+03/11/05 12:56:18 TRACE: request received
+03/11/05 12:56:18 TRACE: request finished
+03/11/05 12:56:18 TRACE: response send
+03/11/05 12:56:18 TRACE: start waiting for request
+03/11/05 12:56:24 TRACE: request received
+03/11/05 12:56:24 TRACE: request finished
+03/11/05 12:56:24 TRACE: response send
+03/11/05 12:56:24 TRACE: start waiting for request
+03/11/05 12:56:28 ERROR: Se ha forzado la interrupción de una conexión existente por el host remoto.
+
+#Software: WebApp
+#Date: 08/07/06 12:04:45
+#OS: Microsoft Windows XP Professional Service Pack 2 (Build 2600)
+#IE: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) ;Version 6.0.2900.2180
+08/07/06 12:04:45 TRACE: WebApp::configureControllers() start
+08/07/06 12:04:45 ERROR: ClassFactory::createObject() -- No registered classes
+08/07/06 12:04:45 ERROR: ClassFactory::createObject() -- No registered classes
+08/07/06 12:04:45 ERROR: ClassFactory::createObject() -- No registered classes
+08/07/06 12:04:45 TRACE: WebApp::configureControllers() end
+08/07/06 12:04:45 TRACE: WebApp::configure() End
+08/07/06 12:04:45 TRACE: WebApp::run() start
+08/07/06 12:04:45 INFO: Process Id: 5136
+08/07/06 12:04:45 TRACE: Control::run() start
+#Software: WebApp
+#Date: 08/07/06 12:49:22
+#OS: Microsoft Windows XP Professional Service Pack 2 (Build 2600)
+#IE: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) ;Version 6.0.2900.2180
+08/07/06 12:49:22 TRACE: WebApp::configureControllers() start
+08/07/06 12:49:22 ERROR: ClassFactory::createObject() -- No registered classes
+08/07/06 12:49:22 TRACE: WebApp::configureControllers() end
+08/07/06 12:49:22 TRACE: WebApp::configure() End
+08/07/06 12:49:22 TRACE: WebApp::run() start
+08/07/06 12:49:22 INFO: Process Id: 4128
+08/07/06 12:49:22 TRACE: Control::run() start
+08/07/06 12:49:58 TRACE: WebSession::run() start
+08/07/06 12:49:58 TRACE: start waiting for request
+08/07/06 12:49:58 TRACE: request received
+08/07/06 12:49:58 TRACE: request finished
+08/07/06 12:49:58 TRACE: response send
+08/07/06 12:49:58 TRACE: start waiting for request
+08/07/06 12:49:58 TRACE: request received
+08/07/06 12:49:58 TRACE: request finished
+08/07/06 12:49:58 TRACE: response send
+08/07/06 12:49:58 TRACE: start waiting for request
+08/07/06 12:50:04 TRACE: request received
+08/07/06 12:50:04 TRACE: request finished
+08/07/06 12:50:04 TRACE: response send
+08/07/06 12:50:04 TRACE: start waiting for request
+#Software: WebApp
+#Date: 08/07/06 12:50:23
+#OS: Microsoft Windows XP Professional Service Pack 2 (Build 2600)
+#IE: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) ;Version 6.0.2900.2180
+08/07/06 12:50:23 TRACE: WebApp::configureControllers() start
+08/07/06 12:50:23 ERROR: ClassFactory::createObject() -- No registered classes
+08/07/06 12:50:23 TRACE: WebApp::configureControllers() end
+08/07/06 12:50:23 TRACE: WebApp::configure() End
+08/07/06 12:50:23 TRACE: WebApp::run() start
+08/07/06 12:50:23 INFO: Process Id: 4020
+08/07/06 12:50:23 TRACE: Control::run() start
+08/07/06 12:50:31 TRACE: WebSession::run() start
+08/07/06 12:50:31 TRACE: start waiting for request
+08/07/06 12:50:31 TRACE: request received
+08/07/06 12:50:31 TRACE: request finished
+08/07/06 12:50:31 TRACE: response send
+08/07/06 12:50:31 TRACE: start waiting for request
+08/07/06 12:50:32 TRACE: request received
+08/07/06 12:50:32 TRACE: request finished
+08/07/06 12:50:32 TRACE: response send
+08/07/06 12:50:32 TRACE: start waiting for request
+08/07/06 12:50:56 TRACE: request received
+08/07/06 12:50:56 TRACE: request finished
+08/07/06 12:50:56 TRACE: response send
+08/07/06 12:50:56 TRACE: start waiting for request
+08/07/06 12:50:58 TRACE: request received
+08/07/06 12:50:58 TRACE: request finished
+08/07/06 12:50:58 TRACE: response send
+08/07/06 12:50:58 TRACE: start waiting for request
+08/07/06 12:51:18 TRACE: request received
+08/07/06 12:51:18 TRACE: request finished
+08/07/06 12:51:18 TRACE: response send
+08/07/06 12:51:18 TRACE: start waiting for request
+08/07/06 12:51:19 TRACE: request received
+08/07/06 12:51:19 TRACE: request finished
+08/07/06 12:51:19 TRACE: response send
+08/07/06 12:51:19 TRACE: start waiting for request
+08/07/06 12:51:35 TRACE: request received
+08/07/06 12:51:35 TRACE: request finished
+08/07/06 12:51:35 TRACE: response send
+08/07/06 12:51:35 TRACE: start waiting for request
+08/07/06 12:52:48 TRACE: request received
+08/07/06 12:52:55 TRACE: request finished
+08/07/06 12:52:55 TRACE: response send
+08/07/06 12:52:55 TRACE: start waiting for request
+08/07/06 12:53:00 TRACE: request received
+08/07/06 12:54:55 TRACE: request finished
+08/07/06 12:54:55 TRACE: response send
+08/07/06 12:54:55 TRACE: start waiting for request
+08/07/06 12:55:04 INFO: Control command: 
+08/07/06 12:55:07 INFO: Control command: 
+08/07/06 12:55:11 INFO: Control command: 
+#Software: WebApp
+#Date: 08/07/06 12:55:19
+#OS: Microsoft Windows XP Professional Service Pack 2 (Build 2600)
+#IE: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) ;Version 6.0.2900.2180
+08/07/06 12:55:22 TRACE: WebApp::configureControllers() start
+08/07/06 12:56:04 ERROR: ClassFactory::createObject() -- No registered classes
+08/07/06 12:56:04 TRACE: WebApp::configureControllers() end
+08/07/06 12:56:04 TRACE: WebApp::configure() End
+08/07/06 12:56:04 TRACE: WebApp::run() start
+08/07/06 12:56:04 INFO: Process Id: 2824
+08/07/06 12:56:04 TRACE: Control::run() start
+#Software: WebApp
+#Date: 08/07/06 12:59:07
+#OS: Microsoft Windows XP Professional Service Pack 2 (Build 2600)
+#IE: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) ;Version 6.0.2900.2180
+08/07/06 12:59:10 TRACE: WebApp::configureControllers() start
+08/07/06 12:59:10 INFO: AddController: TestClass /Test
+08/07/06 12:59:11 TRACE: WebApp::configureControllers() end
+08/07/06 12:59:11 TRACE: WebApp::configure() End
+08/07/06 12:59:12 TRACE: WebApp::run() start
+08/07/06 12:59:12 INFO: Process Id: 1532
+08/07/06 12:59:12 TRACE: Control::run() start
+08/07/06 12:59:17 TRACE: WebSession::run() start
+08/07/06 12:59:17 TRACE: start waiting for request
+08/07/06 12:59:17 TRACE: request received
+08/07/06 12:59:19 TRACE: request finished
+08/07/06 12:59:19 TRACE: response send
+08/07/06 12:59:19 TRACE: start waiting for request
+08/07/06 12:59:22 TRACE: request received
+08/07/06 12:59:23 TRACE: request finished
+08/07/06 12:59:23 TRACE: response send
+08/07/06 12:59:23 TRACE: start waiting for request
+08/07/06 12:59:32 TRACE: request received
+#Software: WebApp
+#Date: 08/07/06 13:00:12
+#OS: Microsoft Windows XP Professional Service Pack 2 (Build 2600)
+#IE: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) ;Version 6.0.2900.2180
+08/07/06 13:00:12 TRACE: WebApp::configureControllers() start
+08/07/06 13:00:12 INFO: AddController: TestClass /Test
+08/07/06 13:00:12 TRACE: WebApp::configureControllers() end
+08/07/06 13:00:12 TRACE: WebApp::configure() End
+08/07/06 13:00:12 TRACE: WebApp::run() start
+08/07/06 13:00:12 INFO: Process Id: 4668
+08/07/06 13:00:12 TRACE: Control::run() start
+08/07/06 13:00:30 TRACE: WebSession::run() start
+08/07/06 13:00:30 TRACE: start waiting for request
+08/07/06 13:00:30 TRACE: request received
+08/07/06 13:00:30 TRACE: request finished
+08/07/06 13:00:30 TRACE: response send
+08/07/06 13:00:30 TRACE: start waiting for request
+08/07/06 13:00:30 TRACE: request received
+08/07/06 13:00:32 TRACE: request finished
+08/07/06 13:00:32 TRACE: response send
+08/07/06 13:00:32 TRACE: start waiting for request
+08/07/06 13:00:44 TRACE: request received
+08/07/06 13:00:45 TRACE: request finished
+08/07/06 13:00:45 TRACE: response send
+08/07/06 13:00:45 TRACE: start waiting for request
+#Software: WebApp
+#Date: 08/10/06 08:52:46
+#OS: Microsoft Windows XP Professional Service Pack 2 (Build 2600)
+#IE: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) ;Version 6.0.2900.2180
+08/10/06 08:52:46 TRACE: WebApp::configureControllers() start
+08/10/06 08:52:46 INFO: AddController: LocManager /LocManager
+08/10/06 08:52:46 INFO: AddController: LocManager1 /LocManager1
+08/10/06 08:52:46 INFO: AddController: LocManager2 /LocManager2
+08/10/06 08:52:46 INFO: AddController: TestClass /Test
+08/10/06 08:52:46 TRACE: WebApp::configureControllers() end
+08/10/06 08:52:46 TRACE: WebApp::configure() End
+08/10/06 08:52:46 TRACE: WebApp::run() start
+08/10/06 08:52:46 INFO: Process Id: 4948
+08/10/06 08:52:46 TRACE: Control::run() start
+08/10/06 08:53:06 INFO: Control command: 
+08/10/06 08:53:30 INFO: Control command: 
+08/10/06 08:53:37 INFO: Control command: RESTART
+08/10/06 08:53:37 TRACE: Control::run() end
+08/10/06 08:53:37 ERROR: El sistema no encontró la opción de entorno que se había especificado.
+
+#Software: WebApp
+#Date: 08/10/06 08:53:37
+#OS: Microsoft Windows XP Professional Service Pack 2 (Build 2600)
+#IE: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) ;Version 6.0.2900.2180
+08/10/06 08:53:37 TRACE: WebApp::configureControllers() start
+08/10/06 08:53:37 INFO: AddController: LocManager /LocManager
+08/10/06 08:53:37 INFO: AddController: LocManager1 /LocManager1
+08/10/06 08:53:37 INFO: AddController: LocManager2 /LocManager2
+08/10/06 08:53:37 INFO: AddController: TestClass /Test
+08/10/06 08:53:37 TRACE: WebApp::configureControllers() end
+08/10/06 08:53:37 TRACE: WebApp::configure() End
+08/10/06 08:53:38 TRACE: WebApp::run() start
+08/10/06 08:53:38 INFO: Process Id: 4948
+08/10/06 08:53:38 TRACE: Control::run() start
+08/10/06 08:53:49 INFO: Control command: SHUTDOWN
+08/10/06 08:53:49 TRACE: Control::run() end
+08/10/06 08:53:49 ERROR: El sistema no encontró la opción de entorno que se había especificado.
+
+08/10/06 08:53:49 TRACE: WebApp::run() end
+#End-Date: 08/10/06 08:53:49
+#Software: WebApp
+#Date: 08/10/06 08:54:10
+#OS: Microsoft Windows XP Professional Service Pack 2 (Build 2600)
+#IE: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) ;Version 6.0.2900.2180
+08/10/06 08:54:10 TRACE: WebApp::configureControllers() start
+08/10/06 08:54:10 INFO: AddController: LocManager /LocManager
+08/10/06 08:54:10 INFO: AddController: LocManager1 /LocManager1
+08/10/06 08:54:10 INFO: AddController: LocManager2 /LocManager2
+08/10/06 08:54:10 INFO: AddController: TestClass /Test
+08/10/06 08:54:10 TRACE: WebApp::configureControllers() end
+08/10/06 08:54:10 TRACE: WebApp::configure() End
+08/10/06 08:54:10 TRACE: WebApp::run() start
+08/10/06 08:54:10 INFO: Process Id: 4520
+08/10/06 08:54:10 TRACE: Control::run() start
+#Software: WebApp
+#Date: 08/10/06 08:54:21
+#OS: Microsoft Windows XP Professional Service Pack 2 (Build 2600)
+#IE: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) ;Version 6.0.2900.2180
+08/10/06 08:54:22 TRACE: WebApp::configureControllers() start
+08/10/06 08:54:22 INFO: AddController: LocManager /LocManager
+08/10/06 08:54:22 INFO: AddController: LocManager1 /LocManager1
+08/10/06 08:54:22 INFO: AddController: LocManager2 /LocManager2
+08/10/06 08:54:22 INFO: AddController: TestClass /Test
+08/10/06 08:54:22 TRACE: WebApp::configureControllers() end
+08/10/06 08:54:22 TRACE: WebApp::configure() End
+08/10/06 08:54:22 TRACE: WebApp::run() start
+08/10/06 08:54:22 INFO: Process Id: 3608
+08/10/06 08:54:22 TRACE: Control::run() start

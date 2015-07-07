@@ -1,0 +1,427 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "34pro"=.\TESTERS\34pro\34pro.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AdvSockServer"=.\TESTERS\AdvSockServer\AdvSockServer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "BMP2JPG"=..\TEMP\BMP2JPG\BMP2JPG.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "BarCodePrint"=.\UTIL\BarCodePrint\BarCodePrint.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "DynamicMethod"=.\TESTERS\DynamicMethod\DynamicMethod.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/STREAM/TESTERS/DynamicMethod", OBCAAAAA
+    .\testers\dynamicmethod
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Stream
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Izzet"=.\util\Izzet\Izzet.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ManaCurve"=.\UTIL\ManaCurve\ManaCurve.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ManaCurve2"=.\UTIL\ManaCurve2\ManaCurve2.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ManaCurve3"=.\UTIL\ManaCurve3\ManaCurve3.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "PacketSorterTester"=.\UTIL\PacketSorterTester\PacketSorterTester.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Stream
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Print"=.\UTIL\Print\Print.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Stream
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "PruCreateTable"=.\TESTERS\PruCreateTable\PruCreateTable.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "PruFormatClass"=.\TESTERS\PruFormatClass\PruFormatClass.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Stream
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "PruPrintTemplate"=.\TESTERS\PruPrintTemplate\PruPrintTemplate.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Stream
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SGTSim"=..\SANFERNANDO\GALA\SGTSim\SGTSim.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Stream
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ServiceManager"=.\UTIL\ServiceManager\ServiceManager.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Stream"=.\Stream.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/STREAM", BAAAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "TestDumpTable"=.\TESTERS\TestDumpTable\TestDumpTable.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Stream
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TestService"=.\TESTERS\TestService\TestService.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Stream
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TimeT"=.\TESTERS\TimeT\TimeT.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Stream
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TimeTest"=..\TEMP\TimeTest\TimeTest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ViadelCont"=..\SanFernando\GALA\OchoaDat\ViadelCont\ViadelCont.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Stream
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "WebServer"=.\UTIL\WebServer\WebServer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Stream
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "WildcardTest"=.\TESTERS\WildcardTest\WildcardTest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Stream
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "createRoutes"=..\SANFERNANDO\GALA\SGTSIM\createRoutes\createRoutes.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Stream
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "eumi"=.\UTIL\eumi\eumi.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "getk"=.\util\GETK\getk.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Stream
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "iwar"=.\UTIL\iwar\iwar.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ref_ptr_memmory_checker"=.\TESTERS\ref_ptr_memmory_checker\ref_ptr_memmory_checker.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "zlib32"=.\zlib\zlib32\zlib32.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

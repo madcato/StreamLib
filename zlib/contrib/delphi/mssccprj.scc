@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[zlib.mak]
+SCC_Aux_Path = "D:\proyectos\vssData"
+SCC_Project_Name = "$/STREAM/ZLIB/contrib/delphi", ITAAAAAA

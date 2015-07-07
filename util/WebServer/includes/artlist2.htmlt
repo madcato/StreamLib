@@ -1,0 +1,13 @@
+<html>
+<body>
+
+<table>
+<a href="/ArtlList?command=list">Ver todos los artículos</a>
+<h2>Lista de artículos</h2>
+<tr><th> Descripción </th><th> Comprar </th></tr>
+%%LISTA%%
+<tr><td>%%0%%</td><td><a href="/New?type=buy&idart=%%1%%">C</a></td></tr>
+%%LISTA%%
+</table>
+</body>
+</html>

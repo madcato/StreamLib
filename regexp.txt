@@ -1,0 +1,8 @@
+. Any character
+^ Beginnig of line
+$ End of line
+\(\) Tagged expresion
+~ Not
+* 0 or more matches
++ 1 or more matches
+

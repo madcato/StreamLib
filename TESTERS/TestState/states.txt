@@ -1,0 +1,10 @@
+
+# Definition: state+event=newstate  AVOID WHITESPACES
+
+ini=S1
+S1+V1=S1
+S1+V2=S3
+S2+V1=S1
+S2+V2=S3
+S3+V1=S2
+S3+V2=S2

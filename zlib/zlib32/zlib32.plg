@@ -1,0 +1,92 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zlib32 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\MadCat\CONFIG~1\Temp\RSP5BA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/zlib32.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\miscos\stream\zlib\adler32.c"
+"D:\miscos\stream\zlib\compress.c"
+"D:\miscos\stream\zlib\crc32.c"
+"D:\miscos\stream\zlib\deflate.c"
+"D:\miscos\stream\zlib\gzio.c"
+"D:\miscos\stream\zlib\infblock.c"
+"D:\miscos\stream\zlib\infcodes.c"
+"D:\miscos\stream\zlib\inffast.c"
+"D:\miscos\stream\zlib\inflate.c"
+"D:\miscos\stream\zlib\inftrees.c"
+"D:\miscos\stream\zlib\infutil.c"
+"D:\miscos\stream\zlib\trees.c"
+"D:\miscos\stream\zlib\uncompr.c"
+"D:\miscos\stream\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MadCat\CONFIG~1\Temp\RSP5BA.tmp" 
+Creating temporary file "C:\DOCUME~1\MadCat\CONFIG~1\Temp\RSP5BB.tmp" with contents
+[
+/nologo /out:"Debug\zlib32d.lib" 
+.\Debug\adler32.obj
+.\Debug\compress.obj
+.\Debug\crc32.obj
+.\Debug\deflate.obj
+.\Debug\gzio.obj
+.\Debug\infblock.obj
+.\Debug\infcodes.obj
+.\Debug\inffast.obj
+.\Debug\inflate.obj
+.\Debug\inftrees.obj
+.\Debug\infutil.obj
+.\Debug\trees.obj
+.\Debug\uncompr.obj
+.\Debug\zutil.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\MadCat\CONFIG~1\Temp\RSP5BB.tmp"
+<h3>Output Window</h3>
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infblock.c
+infcodes.c
+inffast.c
+inflate.c
+inftrees.c
+infutil.c
+trees.c
+uncompr.c
+zutil.c
+Creating library...
+Creating temporary file "C:\DOCUME~1\MadCat\CONFIG~1\Temp\RSP5BC.bat" with contents
+[
+@echo off
+copy ..\*.h "C:\Archivos de programa\Microsoft Visual Studio\VC98\Include2"
+copy .\Debug\zlib32d.lib "C:\Archivos de programa\Microsoft Visual Studio\VC98\Lib2"
+]
+Creating command line "C:\DOCUME~1\MadCat\CONFIG~1\Temp\RSP5BC.bat"
+
+..\deflate.h
+..\infblock.h
+..\infcodes.h
+..\inffast.h
+..\inffixed.h
+..\inftrees.h
+..\infutil.h
+..\trees.h
+..\zconf.h
+..\zlib.h
+..\zutil.h
+       11 archivos copiados.
+        1 archivos copiados.
+
+
+
+<h3>Results</h3>
+zlib32d.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

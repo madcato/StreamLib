@@ -1,0 +1,13 @@
+<html>
+<body>
+
+<table>
+<a href="/ArtList?command=list">Ver todos los artículos</a>
+<h2>Lista de categorías</h2>
+<tr><th> Categoría </th></tr>
+%%LISTA%%
+<tr><td><a href="/ArtList?command=cat&idcat=%%0%%">%%1%%</a></tr>
+%%LISTA%%
+</table>
+</body>
+</html>

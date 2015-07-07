@@ -1,0 +1,444 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Stream - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dvela\CONFIG~1\Temp\RSP52.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "." /I ".\zlib" /I ".\src" /I ".\src\io" /I ".\src\net" /I ".\src\sync" /I ".\src\util" /I ".\src\sql" /I ".\src\exceptions" /I ".\src\cryptoapi" /I ".\src\zip" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR"output\Debug/" /Fp"output\Debug/Stream.pch" /YX"stdafx.h" /Fo"output\Debug/" /Fd"output\Debug/" /FD /GZ /c 
+"D:\proyectos\Stream\src\util\DynamicClass.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dvela\CONFIG~1\Temp\RSP52.tmp" 
+Creating temporary file "C:\DOCUME~1\dvela\CONFIG~1\Temp\RSP53.tmp" with contents
+[
+/nologo /out:"lib\Streamd.lib" 
+.\output\Debug\Application.obj
+.\output\Debug\B64.obj
+.\output\Debug\B64InputStream.obj
+.\output\Debug\B64OutputStream.obj
+.\output\Debug\Base64Coder.obj
+.\output\Debug\BigInteger.obj
+.\output\Debug\BLOBData.obj
+.\output\Debug\BLOBInputStream.obj
+.\output\Debug\BLOBOutputStream.obj
+.\output\Debug\BolsaPropiedades.obj
+.\output\Debug\BufferedReader.obj
+.\output\Debug\Caesar.obj
+.\output\Debug\Certificate.obj
+.\output\Debug\ClassFactory.obj
+.\output\Debug\CommandProcessor.obj
+.\output\Debug\Connection.obj
+.\output\Debug\ConOut.obj
+.\output\Debug\ConsoleInputStream.obj
+.\output\Debug\ConsoleOutputStream.obj
+.\output\Debug\CryptContext.obj
+.\output\Debug\CryptException.obj
+.\output\Debug\CryptMessage.obj
+.\output\Debug\CW3CLog.obj
+.\output\Debug\DB.obj
+.\output\Debug\DiffTime.obj
+.\output\Debug\EncryptedInputStream.obj
+.\output\Debug\EncryptedOutputStream.obj
+.\output\Debug\Exceptions.obj
+.\output\Debug\FileInputStream.obj
+.\output\Debug\FileOutputStream.obj
+.\output\Debug\FileUtil.obj
+.\output\Debug\FilterInputStream.obj
+.\output\Debug\FilterOutputStream.obj
+.\output\Debug\FLineParser.obj
+.\output\Debug\GZInputStream.obj
+.\output\Debug\GZIP.obj
+.\output\Debug\GZIPInputStream.obj
+.\output\Debug\GZIPOutputStream.obj
+.\output\Debug\GZOutputStream.obj
+.\output\Debug\HashObj.obj
+.\output\Debug\HexBin.obj
+.\output\Debug\HTMLIncluder.obj
+.\output\Debug\HTMLTPage.obj
+.\output\Debug\HTTPConnection.obj
+.\output\Debug\HTTPControllerManager.obj
+.\output\Debug\HTTPServerConnection.obj
+.\output\Debug\IData.obj
+.\output\Debug\IFilterInputStream.obj
+.\output\Debug\IFilterOutputStream.obj
+.\output\Debug\IStreamRedirector.obj
+.\output\Debug\LdapConnection.obj
+.\output\Debug\LiteLog.obj
+.\output\Debug\Log.obj
+.\output\Debug\LogFactory.obj
+.\output\Debug\MD5.obj
+.\output\Debug\Mime.obj
+.\output\Debug\MimeChar.obj
+.\output\Debug\MimeCode.obj
+.\output\Debug\MimeType.obj
+.\output\Debug\NetCommandServer.obj
+.\output\Debug\Parseador2.obj
+.\output\Debug\PersistentProperties.obj
+.\output\Debug\PrepareCommand.obj
+.\output\Debug\PreparedStatement.obj
+.\output\Debug\PrintWriter.obj
+.\output\Debug\Properties.obj
+.\output\Debug\ProtectedFIFO.obj
+.\output\Debug\ReplaceVariables.obj
+.\output\Debug\ResourceManager.obj
+.\output\Debug\ResultSet.obj
+.\output\Debug\Semaphore.obj
+.\output\Debug\ServerSocket.obj
+.\output\Debug\SimpleHash.obj
+.\output\Debug\SMTPSender.obj
+.\output\Debug\Socket.obj
+.\output\Debug\SocketBase.obj
+.\output\Debug\SocketServerUDP.obj
+.\output\Debug\SocksifiedSocket.obj
+.\output\Debug\StateMachine.obj
+.\output\Debug\Store.obj
+.\output\Debug\StreamDoubleRedirector.obj
+.\output\Debug\StreamRedirector.obj
+.\output\Debug\StringUtil.obj
+.\output\Debug\System.obj
+.\output\Debug\Tar.obj
+.\output\Debug\TarHeaderFactory.obj
+.\output\Debug\TarReader.obj
+.\output\Debug\TarWriter.obj
+.\output\Debug\Thread.obj
+.\output\Debug\ThreadPool.obj
+.\output\Debug\Time_s.obj
+.\output\Debug\TimerControl.obj
+.\output\Debug\Tokenizer.obj
+.\output\Debug\UniqueID.obj
+.\output\Debug\WebApp.obj
+.\output\Debug\Wildcard.obj
+.\output\Debug\DynamicClass.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\dvela\CONFIG~1\Temp\RSP53.tmp"
+<h3>Output Window</h3>
+Compiling...
+DynamicClass.cpp
+Creating library...
+Creating temporary file "C:\DOCUME~1\dvela\CONFIG~1\Temp\RSP54.bat" with contents
+[
+@echo off
+copy *.h ".\include"
+copy .\src\cryptoapi\*.h ".\include"
+copy .\src\exceptions\*.h ".\include"
+copy .\src\io\*.h ".\include"
+copy .\src\net\*.h ".\include"
+copy .\src\sql\*.h ".\include"
+copy .\src\sync\*.h ".\include"
+copy .\src\util\*.h ".\include"
+copy .\src\zip\*.h ".\include"
+copy .\src\mime\*.h ".\include"
+copy .\src\*.h ".\include"
+MakeDoc.bat
+del  ".\include\stdafx.h"
+]
+Creating command line "C:\DOCUME~1\dvela\CONFIG~1\Temp\RSP54.bat"
+
+*.h 
+El sistema no puede hallar el archivo especificado.
+        0 archivos copiados.
+.\src\cryptoapi\Certificate.h
+.\src\cryptoapi\CryptContext.h
+.\src\cryptoapi\CryptException.h
+.\src\cryptoapi\CryptMessage.h
+.\src\cryptoapi\namespace_cryptoapi.h
+.\src\cryptoapi\Store.h
+        6 archivos copiados.
+.\src\exceptions\Exceptions.h
+.\src\exceptions\gz_exceptions.h
+        2 archivos copiados.
+.\src\io\B64.h
+.\src\io\B64InputStream.h
+.\src\io\B64OutputStream.h
+.\src\io\Blob.h
+.\src\io\BLOBData.h
+.\src\io\BLOBInputStream.h
+.\src\io\BLOBOutputStream.h
+.\src\io\BufferedReader.h
+.\src\io\ConOut.h
+.\src\io\ConsoleInputStream.h
+.\src\io\ConsoleOutputStream.h
+.\src\io\CountReferencedBlob.h
+.\src\io\EncryptedInputStream.h
+.\src\io\EncryptedOutputStream.h
+.\src\io\FileData.h
+.\src\io\FileInputStream.h
+.\src\io\FileOutputStream.h
+.\src\io\FilterInputStream.h
+.\src\io\FilterOutputStream.h
+.\src\io\HexBin.h
+.\src\io\IData.h
+.\src\io\IDataProcessor.h
+.\src\io\IFilterInputStream.h
+.\src\io\IFilterOutputStream.h
+.\src\io\IInputStream.h
+.\src\io\IOutputStream.h
+.\src\io\IStreamRedirector.h
+.\src\io\namepsace_io.h
+.\src\io\PrintWriter.h
+.\src\io\StreamDoubleRedirector.h
+.\src\io\StreamRedirector.h
+       31 archivos copiados.
+.\src\net\HTMLIncluder.h
+.\src\net\HTMLTPage.h
+.\src\net\HTTPConnection.h
+.\src\net\HTTPControllerManager.h
+.\src\net\HTTPServerConnection.h
+.\src\net\LdapConnection.h
+.\src\net\namepsace_net.h
+.\src\net\NetCommandServer.h
+.\src\net\ServerSocket.h
+.\src\net\SMTPSender.h
+.\src\net\Socket.h
+.\src\net\SocketBase.h
+.\src\net\SocketServerUDP.h
+.\src\net\SocksifiedSocket.h
+.\src\net\sslsocket.h
+.\src\net\WebApp.h
+       16 archivos copiados.
+.\src\sql\Connection.h
+.\src\sql\DB.h
+.\src\sql\namespace_sql.h
+.\src\sql\PreparedStatement.h
+.\src\sql\ResultSet.h
+        5 archivos copiados.
+.\src\sync\CriticalSection.h
+.\src\sync\namepsace_sync.h
+.\src\sync\ProtectedFIFO.h
+.\src\sync\Semaphore.h
+.\src\sync\Thread.h
+.\src\sync\ThreadPool.h
+.\src\sync\TimerControl.h
+        7 archivos copiados.
+.\src\util\Application.h
+.\src\util\BigInteger.h
+.\src\util\BolsaPropiedades.h
+.\src\util\Caesar.h
+.\src\util\ClassFactory.h
+.\src\util\CommandProcessor.h
+.\src\util\CW3CLog.h
+.\src\util\DiffTime.h
+.\src\util\DynamicClass.h
+.\src\util\Entry2.h
+.\src\util\FileUtil.h
+.\src\util\FLineParser.h
+.\src\util\HashObj.h
+.\src\util\ILog.h
+.\src\util\LiteLog.h
+.\src\util\Log.h
+.\src\util\LogFactory.h
+.\src\util\MD5.h
+.\src\util\memory_stream.h
+.\src\util\namespace_util.h
+.\src\util\Parseador2.h
+.\src\util\PersistentProperties.h
+.\src\util\PrepareCommand.h
+.\src\util\Properties.h
+.\src\util\ReplaceVariables.h
+.\src\util\ResourceManager.h
+.\src\util\SimpleHash.h
+.\src\util\StateMachine.h
+.\src\util\StringUtil.h
+.\src\util\System.h
+.\src\util\Tar.h
+.\src\util\TarHeader.h
+.\src\util\TarHeaderFactory.h
+.\src\util\TarReader.h
+.\src\util\TarWriter.h
+.\src\util\Time_s.h
+.\src\util\Tokenizer.h
+.\src\util\UniqueID.h
+.\src\util\Wildcard.h
+       39 archivos copiados.
+.\src\zip\GZInputStream.h
+.\src\zip\GZIP.h
+.\src\zip\GZIPInputStream.h
+.\src\zip\GZIPOutputStream.h
+.\src\zip\GZOutputStream.h
+.\src\zip\namepsace_zip.h
+        6 archivos copiados.
+.\src\mime\Mime.h
+.\src\mime\MimeChar.h
+.\src\mime\MimeCode.h
+        3 archivos copiados.
+.\src\Base64Coder.h
+.\src\StdAfx.h
+.\src\Stream.h
+        3 archivos copiados.
+Archivo eliminado: D:\proyectos\stream\doc\Application.html
+Archivo eliminado: D:\proyectos\stream\doc\ArrayBoundsException.html
+Archivo eliminado: D:\proyectos\stream\doc\auto_array_ptr.html
+Archivo eliminado: D:\proyectos\stream\doc\B64.html
+Archivo eliminado: D:\proyectos\stream\doc\BigInteger.html
+Archivo eliminado: D:\proyectos\stream\doc\Blob.html
+Archivo eliminado: D:\proyectos\stream\doc\BLOBData.html
+Archivo eliminado: D:\proyectos\stream\doc\BLOBOutputStream.html
+Archivo eliminado: D:\proyectos\stream\doc\BlobPtr.html
+Archivo eliminado: D:\proyectos\stream\doc\BufferedReader.html
+Archivo eliminado: D:\proyectos\stream\doc\CCaesar.html
+Archivo eliminado: D:\proyectos\stream\doc\ClassFactory.html
+Archivo eliminado: D:\proyectos\stream\doc\ClassGraph.class
+Archivo eliminado: D:\proyectos\stream\doc\ClassGraphPanel.class
+Archivo eliminado: D:\proyectos\stream\doc\ClassLayout.class
+Archivo eliminado: D:\proyectos\stream\doc\COMInit.html
+Archivo eliminado: D:\proyectos\stream\doc\Connection.html
+Archivo eliminado: D:\proyectos\stream\doc\ConnectionPtr.html
+Archivo eliminado: D:\proyectos\stream\doc\ConOut.html
+Archivo eliminado: D:\proyectos\stream\doc\CountReferencedBlob.html
+Archivo eliminado: D:\proyectos\stream\doc\CriticalSection.html
+Archivo eliminado: D:\proyectos\stream\doc\cryptoapi.html
+Archivo eliminado: D:\proyectos\stream\doc\DB.html
+Archivo eliminado: D:\proyectos\stream\doc\DiffTime.html
+Archivo eliminado: D:\proyectos\stream\doc\DirectoryNotFoundStreamException.html
+Archivo eliminado: D:\proyectos\stream\doc\DynamicClassException.html
+Archivo eliminado: D:\proyectos\stream\doc\Entry2.html
+Archivo eliminado: D:\proyectos\stream\doc\EProcessType.html
+Archivo eliminado: D:\proyectos\stream\doc\EProcessTypeZip.html
+Archivo eliminado: D:\proyectos\stream\doc\exceptions.html
+Archivo eliminado: D:\proyectos\stream\doc\FileAccessController.html
+Archivo eliminado: D:\proyectos\stream\doc\FileData.html
+Archivo eliminado: D:\proyectos\stream\doc\FileInputStream.html
+Archivo eliminado: D:\proyectos\stream\doc\FileInputStreamPtr.html
+Archivo eliminado: D:\proyectos\stream\doc\FileOutputStream.html
+Archivo eliminado: D:\proyectos\stream\doc\FileOutputStreamPtr.html
+Archivo eliminado: D:\proyectos\stream\doc\FileStreamException.html
+Archivo eliminado: D:\proyectos\stream\doc\FileUtil.html
+Archivo eliminado: D:\proyectos\stream\doc\FileUtilException.html
+Archivo eliminado: D:\proyectos\stream\doc\General.html
+Archivo eliminado: D:\proyectos\stream\doc\GenericController.html
+Archivo eliminado: D:\proyectos\stream\doc\GZIP.html
+Archivo eliminado: D:\proyectos\stream\doc\HashObj.html
+Archivo eliminado: D:\proyectos\stream\doc\HASH_TYPE.html
+Archivo eliminado: D:\proyectos\stream\doc\HexBin.html
+Archivo eliminado: D:\proyectos\stream\doc\HIER.html
+Archivo eliminado: D:\proyectos\stream\doc\HIERjava.html
+Archivo eliminado: D:\proyectos\stream\doc\HTMLIncluder.html
+Archivo eliminado: D:\proyectos\stream\doc\HTMLTPage.html
+Archivo eliminado: D:\proyectos\stream\doc\HTTPConnection.html
+Archivo eliminado: D:\proyectos\stream\doc\HTTPRequest.html
+Archivo eliminado: D:\proyectos\stream\doc\HTTPRequestPtr.html
+Archivo eliminado: D:\proyectos\stream\doc\HTTPResponse.html
+Archivo eliminado: D:\proyectos\stream\doc\HTTPResponsePtr.html
+Archivo eliminado: D:\proyectos\stream\doc\HTTPServerConnection.html
+Archivo eliminado: D:\proyectos\stream\doc\icon1.gif
+Archivo eliminado: D:\proyectos\stream\doc\icon2.gif
+Archivo eliminado: D:\proyectos\stream\doc\IData.html
+Archivo eliminado: D:\proyectos\stream\doc\IDataProcessor.html
+Archivo eliminado: D:\proyectos\stream\doc\IHTTPController.html
+Archivo eliminado: D:\proyectos\stream\doc\IInputStream.html
+Archivo eliminado: D:\proyectos\stream\doc\IInputStreamPtr.html
+Archivo eliminado: D:\proyectos\stream\doc\ILog.html
+Archivo eliminado: D:\proyectos\stream\doc\index.html
+Archivo eliminado: D:\proyectos\stream\doc\io.html
+Archivo eliminado: D:\proyectos\stream\doc\IOutputStream.html
+Archivo eliminado: D:\proyectos\stream\doc\IOutputStreamPtr.html
+Archivo eliminado: D:\proyectos\stream\doc\IProxyAuthData.html
+Archivo eliminado: D:\proyectos\stream\doc\IStreamRedirector.html
+Archivo eliminado: D:\proyectos\stream\doc\LdapConnection.html
+Archivo eliminado: D:\proyectos\stream\doc\LdapResponse.html
+Archivo eliminado: D:\proyectos\stream\doc\MultiPropertyBag.html
+Archivo eliminado: D:\proyectos\stream\doc\namesapcenet.html
+Archivo eliminado: D:\proyectos\stream\doc\namespacecryptoapi.html
+Archivo eliminado: D:\proyectos\stream\doc\namespaceexceptions.2.html
+Archivo eliminado: D:\proyectos\stream\doc\namespaceexceptions.html
+Archivo eliminado: D:\proyectos\stream\doc\NavigatorButton.class
+Archivo eliminado: D:\proyectos\stream\doc\net.html
+Archivo eliminado: D:\proyectos\stream\doc\NetCommandServer.html
+Archivo eliminado: D:\proyectos\stream\doc\NetCommandServerPtr.html
+Archivo eliminado: D:\proyectos\stream\doc\PACKET_LENGTH.html
+Archivo eliminado: D:\proyectos\stream\doc\Parseador2.html
+Archivo eliminado: D:\proyectos\stream\doc\PersistentProperties.html
+Archivo eliminado: D:\proyectos\stream\doc\PrepareCommand.html
+Archivo eliminado: D:\proyectos\stream\doc\PreparedStatement.html
+Archivo eliminado: D:\proyectos\stream\doc\PreparedStatementPtr.html
+Archivo eliminado: D:\proyectos\stream\doc\Properties.html
+Archivo eliminado: D:\proyectos\stream\doc\PropertyBag.html
+Archivo eliminado: D:\proyectos\stream\doc\PropertyBagException.html
+Archivo eliminado: D:\proyectos\stream\doc\ProtectedFIFO.html
+Archivo eliminado: D:\proyectos\stream\doc\ProxyException.html
+Archivo eliminado: D:\proyectos\stream\doc\ref_count_ptr.html
+Archivo eliminado: D:\proyectos\stream\doc\ReplaceVariables.html
+Archivo eliminado: D:\proyectos\stream\doc\ResourceManager.html
+Archivo eliminado: D:\proyectos\stream\doc\ResultSet.html
+Archivo eliminado: D:\proyectos\stream\doc\ResultSetPtr.html
+Archivo eliminado: D:\proyectos\stream\doc\Semaphore.html
+Archivo eliminado: D:\proyectos\stream\doc\ServerSocket.html
+Archivo eliminado: D:\proyectos\stream\doc\ServerSocketPtr.html
+Archivo eliminado: D:\proyectos\stream\doc\SimpleHash.html
+Archivo eliminado: D:\proyectos\stream\doc\SMTPSender.html
+Archivo eliminado: D:\proyectos\stream\doc\Socket.html
+Archivo eliminado: D:\proyectos\stream\doc\SocketPtr.html
+Archivo eliminado: D:\proyectos\stream\doc\SocketStreamException.html
+Archivo eliminado: D:\proyectos\stream\doc\SocksifiedSocket.html
+Archivo eliminado: D:\proyectos\stream\doc\sql.html
+Archivo eliminado: D:\proyectos\stream\doc\sstring.html
+Archivo eliminado: D:\proyectos\stream\doc\sstringPtr.html
+Archivo eliminado: D:\proyectos\stream\doc\StateMachineException.html
+Archivo eliminado: D:\proyectos\stream\doc\stream.html
+Archivo eliminado: D:\proyectos\stream\doc\StreamDoubleRedirector.html
+Archivo eliminado: D:\proyectos\stream\doc\StreamException.html
+Archivo eliminado: D:\proyectos\stream\doc\StreamRedirector.html
+Archivo eliminado: D:\proyectos\stream\doc\StringUtil.html
+Archivo eliminado: D:\proyectos\stream\doc\sync.html
+Archivo eliminado: D:\proyectos\stream\doc\System.html
+Archivo eliminado: D:\proyectos\stream\doc\Tar.html
+Archivo eliminado: D:\proyectos\stream\doc\TarHeader.html
+Archivo eliminado: D:\proyectos\stream\doc\Thread.html
+Archivo eliminado: D:\proyectos\stream\doc\ThreadException.html
+Archivo eliminado: D:\proyectos\stream\doc\Time.html
+Archivo eliminado: D:\proyectos\stream\doc\TimerControl.html
+Archivo eliminado: D:\proyectos\stream\doc\TokenizerException.html
+Archivo eliminado: D:\proyectos\stream\doc\util.html
+Archivo eliminado: D:\proyectos\stream\doc\UtilStreamException.html
+Archivo eliminado: D:\proyectos\stream\doc\W3CLog.html
+Archivo eliminado: D:\proyectos\stream\doc\Wildcard.html
+Archivo eliminado: D:\proyectos\stream\doc\Win32ErrorException.html
+Archivo eliminado: D:\proyectos\stream\doc\zip.html
+Reading files...
+220909 bytes read
+Parsing...
+Merging duplicate entries...
+Sorting entries...
+Resolving references...
+Converting DOC++ to HTML...
+Writing files...
+Writing TOC...
+Writing Class Hierarchy...
+Done.
+Could not open `.\src\io\Exceptions.h'
+Could not open `.\src\io\DCiphEncriptor.h'
+Could not open `.\src\io\DCriptDecriptor.h'
+Could not open `.\src\util\MemoryStream.h'
+Warning: no parent `stream::io::Blob::operator std' for ` stream::io::Blob::operator std::string()' found
+Warning: no parent `stream::io::CountReferencedBlob::operator std' for ` stream::io::CountReferencedBlob::operator std::string()' found
+Warning: no parent `stream::util::sstring::operator std' for ` stream::util::sstring::operator std::string() const ' found
+Warning: no parent `stream::util::sstring::operator std' for ` stream::util::sstring::operator std::wstring() const ' found
+Warning: ` namespace cryptoapi' already have documentation, merging
+Warning: ` namespace cryptoapi' already have documentation, merging
+Warning: ` namespace cryptoapi' already have documentation, merging
+"Doc++"
+<h3>
+--------------------Configuration: ArchMail - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dvela\CONFIG~1\Temp\RSP55.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/ArchMail.pdb" /debug /machine:I386 /out:"Debug/ArchMail.exe" /pdbtype:sept 
+.\Debug\ArchMail.obj
+.\Debug\StdAfx.obj
+\proyectos\Stream\lib\Streamd.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\dvela\CONFIG~1\Temp\RSP55.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+ArchMail.exe - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>

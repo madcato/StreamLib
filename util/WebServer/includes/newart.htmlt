@@ -1,0 +1,15 @@
+<html>
+<body>
+
+<form name="newtask" action="/New" method="POST">
+<input type="hidden" name="type" value="art"></input>
+Descripción: <input type="text" name="artnm"></input><br>
+Category: <select name="idcat">
+%%CATEGORIES%%
+	<option value="%%0%%">%%1%%</option>
+%%CATEGORIES%%	
+</select><br>
+<input type="submit" value="Crear"></input>
+</form>
+</body>
+</html>

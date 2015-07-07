@@ -1,0 +1,10 @@
+<html>
+<body>
+
+<form name="newtask" action="/New" method="POST">
+<input type="hidden" name="type" value="cat"></input>
+Descripción: <input type="text" name="catnm"></input><br>
+<input type="submit" value="Crear"></input>
+</form>
+</body>
+</html>

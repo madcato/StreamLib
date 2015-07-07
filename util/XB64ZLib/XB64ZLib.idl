@@ -1,0 +1,39 @@
+// XB64ZLib.idl : IDL source for XB64ZLib.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (XB64ZLib.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(76ED3806-0242-4927-9CD5-307A21075230),
+		dual,
+		helpstring("IXB64ZLibObj Interface"),
+		pointer_default(unique)
+	]
+	interface IXB64ZLibObj : IDispatch
+	{
+		[id(1), helpstring("method Uncompress")] HRESULT Uncompress([in]BSTR fileIn,[in]BSTR fileOut,[out,retval]long* result);
+	};
+
+[
+	uuid(4680CEEC-46F3-4AC6-B0EE-CD9124F1C874),
+	version(1.0),
+	helpstring("XB64ZLib 1.0 Type Library")
+]
+library XB64ZLIBLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(D39F7E4F-B1B8-4BF7-8031-888B8CF13FA0),
+		helpstring("XB64ZLibObj Class")
+	]
+	coclass XB64ZLibObj
+	{
+		[default] interface IXB64ZLibObj;
+	};
+};

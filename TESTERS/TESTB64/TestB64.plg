@@ -1,0 +1,339 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Stream - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\velad\CONFIG~1\Temp\RSP220A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I ".\zlib" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR"Debug/" /Fp"Debug/Stream.pch" /YX"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\proyectos\Stream\HTTPExtensionManager.cpp"
+"C:\proyectos\Stream\HTMLIncluder.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\velad\CONFIG~1\Temp\RSP220A.tmp" 
+Creating temporary file "C:\DOCUME~1\velad\CONFIG~1\Temp\RSP220B.tmp" with contents
+[
+/nologo /out:"Debug\Streamd.lib" 
+.\Debug\Connection.obj
+.\Debug\PreparedStatement.obj
+.\Debug\ResultSet.obj
+.\Debug\BigInteger.obj
+.\Debug\BolsaPropiedades.obj
+.\Debug\Caesar.obj
+.\Debug\CommandProcessor.obj
+.\Debug\CW3CLog.obj
+.\Debug\FileUtil.obj
+.\Debug\HashObj.obj
+.\Debug\LiteLog.obj
+.\Debug\Log.obj
+.\Debug\Parseador2.obj
+.\Debug\PersistentProperties.obj
+.\Debug\PrepareCommand.obj
+.\Debug\Properties.obj
+.\Debug\ReplaceVariables.obj
+.\Debug\stringUtil.obj
+.\Debug\SystemInfo.obj
+.\Debug\Tar.obj
+.\Debug\TarHeaderFactory.obj
+.\Debug\TarReader.obj
+.\Debug\TarWriter.obj
+.\Debug\Tokenizer.obj
+.\Debug\UniqueID.obj
+.\Debug\B64.obj
+.\Debug\B64InputStream.obj
+.\Debug\B64OutputStream.obj
+.\Debug\BLOBInputStream.obj
+.\Debug\BLOBOutputStream.obj
+.\Debug\BufferedReader.obj
+.\Debug\ConsoleInputStream.obj
+.\Debug\ConsoleOutputStream.obj
+.\Debug\FileInputStream.obj
+.\Debug\FileOutputStream.obj
+.\Debug\FilterInputStream.obj
+.\Debug\FilterOutputStream.obj
+.\Debug\HexBin.obj
+.\Debug\IStreamRedirector.obj
+.\Debug\PrintWriter.obj
+.\Debug\StreamDoubleRedirector.obj
+.\Debug\StreamRedirector.obj
+.\Debug\HTTPConnection.obj
+.\Debug\HTTPExtensionManager.obj
+.\Debug\HTTPServerConnection.obj
+.\Debug\LdapConnection.obj
+.\Debug\ServerSocket.obj
+.\Debug\Socket.obj
+.\Debug\SocksifiedSocket.obj
+.\Debug\ProtectedFIFO.obj
+.\Debug\Semaphore.obj
+.\Debug\Thread.obj
+.\Debug\GZInputStream.obj
+.\Debug\GZIP.obj
+.\Debug\GZIPInputStream.obj
+.\Debug\GZIPOutputStream.obj
+.\Debug\GZOutputStream.obj
+.\Debug\AppLevelConnection.obj
+.\Debug\Base64Coder.obj
+.\Debug\Dciph.obj
+.\Debug\DCiphEncriptor.obj
+.\Debug\DCriptDecriptor.obj
+.\Debug\EncryptedInputStream.obj
+.\Debug\EncryptedOutputStream.obj
+.\Debug\Exceptions.obj
+.\Debug\IFilterInputStream.obj
+.\Debug\IFilterOutputStream.obj
+.\Debug\SocketBase.obj
+.\Debug\SocketServerUDP.obj
+.\Debug\ThreadPool.obj
+.\Debug\stream.res
+.\Debug\HTMLTPage.obj
+.\Debug\HTMLIncluder.obj
+.\zlib\zlib32\Debug\zlib32d.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\velad\CONFIG~1\Temp\RSP220B.tmp"
+<h3>Output Window</h3>
+Compiling...
+HTTPExtensionManager.cpp
+Skipping... (no relevant changes detected)
+HTMLIncluder.cpp
+Creating library...
+Creating temporary file "C:\DOCUME~1\velad\CONFIG~1\Temp\RSP220C.bat" with contents
+[
+@echo off
+copy *.h "C:\Archivos de programa\Microsoft Visual Studio\VC98\Include2"
+copy .\Debug\Streamd.lib "C:\Archivos de programa\Microsoft Visual Studio\VC98\Lib2"
+move "C:\Archivos de programa\Microsoft Visual Studio\VC98\stdafx.h" "C:\Archivos de programa\Microsoft Visual Studio\VC98\stdafx2.h"
+MakeDoc.bat
+]
+Creating command line "C:\DOCUME~1\velad\CONFIG~1\Temp\RSP220C.bat"
+
+AppLevelConnection.h
+B64.h
+B64InputStream.h
+B64OutputStream.h
+Base64Coder.h
+BigInteger.h
+BLOB.h
+BLOBInputStream.h
+BLOBOutputStream.h
+BolsaPropiedades.h
+BufferedReader.h
+Caesar.h
+CommandParser.h
+CommandProcessor.h
+Connection.h
+ConsoleInputStream.h
+ConsoleOutputStream.h
+CriticalSection.h
+CW3CLog.h
+Dciph.h
+DCiphEncriptor.h
+DCriptDecriptor.h
+EncryptedInputStream.h
+EncryptedOutputStream.h
+Entry2.h
+Exceptions.h
+FileInputStream.h
+FileOutputStream.h
+FileUtil.h
+FilterInputStream.h
+FilterOutputStream.h
+GZInputStream.h
+GZIP.h
+GZIPInputStream.h
+GZIPOutputStream.h
+GZOutputStream.h
+gz_exceptions.h
+HashObj.h
+HexBin.h
+HTMLIncluder.h
+HTMLTPage.h
+HTTPConnection.h
+HTTPExtensionManager.h
+HTTPServerConnection.h
+IDataProcessor.h
+IFilterInputStream.h
+IFilterOutputStream.h
+IInputStream.h
+ILog.h
+IOutputStream.h
+IStreamRedirector.h
+LdapConnection.h
+LiteLog.h
+Log.h
+memory_stream.h
+NetCommandParser.h
+Parseador2.h
+PersistentProperties.h
+PrepareCommand.h
+PreparedStatement.h
+PrintWriter.h
+Properties.h
+ProtectedFIFO.h
+ReplaceVariables.h
+resource.h
+ResultSet.h
+Semaphore.h
+ServerSocket.h
+Socket.h
+SocketBase.h
+SocketServerUDP.h
+SocksifiedSocket.h
+sslsocket.h
+StdAfx.h
+Stream.h
+StreamDoubleRedirector.h
+StreamRedirector.h
+stringUtil.h
+SystemInfo.h
+Tar.h
+TarHeader.h
+TarHeaderFactory.h
+TarReader.h
+TarWriter.h
+Thread.h
+ThreadPool.h
+Tokenizer.h
+TomaMacro.h
+UniqueID.h
+       89 archivos copiados.
+        1 archivos copiados.
+El sistema no puede hallar el archivo especificado.
+Archivo eliminado: c:\fireserv\www\doc\Stream\ArrayBoundsException.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\auto_array_ptr.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\B64.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\BLOB.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\BLOBInputStream.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\BLOBOutputStream.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\BufferedReader.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\ClassGraph.class
+Archivo eliminado: c:\fireserv\www\doc\Stream\ClassGraphPanel.class
+Archivo eliminado: c:\fireserv\www\doc\Stream\ClassLayout.class
+Archivo eliminado: c:\fireserv\www\doc\Stream\Connection.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\CriticalSection.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\DirectoryNotFoundStreamException.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\Entry2.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\EProcessType.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\EProcessTypeZip.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\exceptions.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\FileInputStream.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\FileOutputStream.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\FileStreamException.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\FileUtil.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\FileUtilException.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\General.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\GZIP.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\HashObj.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\HASH_TYPE.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\HIER.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\HIERjava.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\HTTPConnection.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\HTTPQuery.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\HTTPResponse.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\HTTPServerConnection.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\icon1.gif
+Archivo eliminado: c:\fireserv\www\doc\Stream\icon2.gif
+Archivo eliminado: c:\fireserv\www\doc\Stream\IDataProcessor.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\IInputStream.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\index.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\io.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\IOutputStream.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\IProxyAuthData.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\IStreamRedirector.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\LdapConnection.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\LdapResponse.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\MultiPropertyBag.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\NavigatorButton.class
+Archivo eliminado: c:\fireserv\www\doc\Stream\net.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\Parseador2.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\PersistentProperties.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\PrepareCommand.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\PreparedStatement.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\Properties.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\PropertyBag.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\PropertyBagException.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\ProtectedFIFO.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\ProxyException.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\ReplaceVariables.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\ResultSet.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\Semaphore.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\ServerSocket.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\Socket.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\SocketStreamException.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\SocksifiedSocket.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\sql.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\sstring.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\stream.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\StreamDoubleRedirector.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\StreamException.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\StreamRedirector.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\StringUtil.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\sync.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\SystemInfo.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\Tar.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\TarHeader.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\Thread.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\ThreadException.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\TimerControl.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\TokenizerException.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\util.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\UtilStreamException.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\Win32ErrorException.html
+Archivo eliminado: c:\fireserv\www\doc\Stream\zip.html
+Reading files...
+135965 bytes read
+Parsing...
+Merging duplicate entries...
+Sorting entries...
+Resolving references...
+Converting DOC++ to HTML...
+Writing files...
+Writing TOC...
+Writing Class Hierarchy...
+Done.
+"Doc++"
+<h3>
+--------------------Configuration: TestB64 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\velad\CONFIG~1\Temp\RSP220D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\.." /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/TestB64.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\proyectos\Stream\TESTERS\TESTB64\TestB64.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\velad\CONFIG~1\Temp\RSP220D.tmp" 
+Creating temporary file "C:\DOCUME~1\velad\CONFIG~1\Temp\RSP220E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\.." /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/TestB64.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\proyectos\Stream\TESTERS\TESTB64\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\velad\CONFIG~1\Temp\RSP220E.tmp" 
+Creating temporary file "C:\DOCUME~1\velad\CONFIG~1\Temp\RSP220F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/TestB64.pdb" /debug /machine:I386 /out:"Debug/TestB64.exe" /pdbtype:sept /libpath:"M:\Microsoft Platform SDK\Lib2" 
+.\Debug\StdAfx.obj
+.\Debug\TestB64.obj
+\proyectos\Stream\Debug\Streamd.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\velad\CONFIG~1\Temp\RSP220F.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+namespace stream: Single Static Debug Build
+namespace stream: Linking with ws2_32.lib. Winsock2
+namespace stream: Linking with Wldap32.lib. WinLdap
+namespace stream: Linking with Version.lib. Base Services
+namespace stream: Linking with Urlmon.lib. URL Monikers
+Compiling...
+Skipping... (no relevant changes detected)
+TestB64.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+TestB64.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,34 @@
+// IData.cpp: implementation of the IData class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+
+#include "IInputStream.h"
+#include "IOutputStream.h"
+
+#include "IData.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+namespace stream
+{
+
+namespace io
+{
+
+IData::IData()
+{
+
+}
+
+IData::~IData()
+{
+
+}
+
+} // namespace io
+
+} // namespace stream

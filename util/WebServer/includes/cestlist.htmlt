@@ -1,0 +1,13 @@
+<html>
+<body>
+
+<table>
+<a href="?command=list">Ver todos los artículos</a>
+<h2>Lista</h2>
+<tr><th> Descripción </th></tr>
+%%LISTA%%
+<tr><td>%%0%%</td></tr>
+%%LISTA%%
+</table>
+</body>
+</html>

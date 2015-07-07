@@ -1,0 +1,17 @@
+El proceso host estará compuesto de:
+
+- Un servidor telnet sin autenticación, repondería a los siguientes comandos:
+	· list
+	· kill
+	. ping
+	. start
+	· stop
+
+- Un gestor de 'schedule' que lance y pare aplicaciones
+
+- Un controlador de KeepUp que mantenga en ejecución a las aplicaciones marcadas a tal efecto.
+
+- Una conexión a BBDD de la que extraer la configuración y que usará para dejar los datos de estado de la aplciación. 
+
+
+

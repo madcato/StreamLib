@@ -1,0 +1,153 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Stream - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\MadCat\CONFIG~1\Temp\RSP559.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "c:\Archivos de programa\Microsoft Platform SDK\Include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR"Debug/" /Fp"Debug/Stream.pch" /YX"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\miscos\stream\SocksifiedSocket.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MadCat\CONFIG~1\Temp\RSP559.tmp" 
+Creating temporary file "C:\DOCUME~1\MadCat\CONFIG~1\Temp\RSP55A.tmp" with contents
+[
+/nologo /out:"Debug\Streamd.lib" 
+.\Debug\AppLevelConnection.obj
+.\Debug\Base64.obj
+.\Debug\Base64Coder.obj
+.\Debug\BigInteger.obj
+.\Debug\Buffer.obj
+.\Debug\BufferedReader.obj
+.\Debug\BufferInputStream.obj
+.\Debug\BufferOutputStream.obj
+.\Debug\CommandProcessor.obj
+.\Debug\ConsoleInputStream.obj
+.\Debug\Dciph.obj
+.\Debug\DCiphEncriptor.obj
+.\Debug\DCriptDecriptor.obj
+.\Debug\EncryptedInputStream.obj
+.\Debug\EncryptedOutputStream.obj
+.\Debug\FileInputStream.obj
+.\Debug\FileOutputStream.obj
+.\Debug\FileUtil.obj
+.\Debug\HashObj.obj
+.\Debug\IFilterInputStream.obj
+.\Debug\IFilterOutputStream.obj
+.\Debug\IInputStream.obj
+.\Debug\IOutputStream.obj
+.\Debug\IStreamRedirector.obj
+.\Debug\Log.obj
+.\Debug\Parseador2.obj
+.\Debug\PrepareCommand.obj
+.\Debug\PrintWriter.obj
+.\Debug\ProtectedFIFO.obj
+.\Debug\ReplaceVariables.obj
+.\Debug\Semaphore.obj
+.\Debug\ServerSocket.obj
+.\Debug\Socket.obj
+.\Debug\SocketBase.obj
+.\Debug\SocketServerUDP.obj
+.\Debug\SocksifiedSocket.obj
+.\Debug\sslsocket.obj
+.\Debug\StreamDoubleRedirector.obj
+.\Debug\StreamRedirector.obj
+.\Debug\stringUtil.obj
+.\Debug\Thread.obj
+.\Debug\ThreadPool.obj
+.\Debug\Tokenizer.obj
+.\Debug\UniqueID.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\MadCat\CONFIG~1\Temp\RSP55A.tmp"
+<h3>Output Window</h3>
+Compiling...
+SocksifiedSocket.cpp
+Creating library...
+Creating temporary file "C:\DOCUME~1\MadCat\CONFIG~1\Temp\RSP55B.bat" with contents
+[
+@echo off
+copy .\Debug\*.lib "C:\Archivos de programa\Microsoft Visual Studio\VC98\lib2"
+copy *.h "C:\Archivos de programa\Microsoft Visual Studio\VC98\include2"
+]
+Creating command line "C:\DOCUME~1\MadCat\CONFIG~1\Temp\RSP55B.bat"
+
+.\Debug\Streamd.lib
+        1 archivos copiados.
+BufferOutputStream.h
+CommandParser.h
+ConsoleInputStream.h
+CriticalSection.h
+Dciph.h
+DCiphEncriptor.h
+DCriptDecriptor.h
+EncryptedInputStream.h
+EncryptedOutputStream.h
+Entry2.h
+stringUtil.h
+FileUtil.h
+FileOutputStream.h
+ServerSocket.h
+Tokenizer.h
+IOutputStream.h
+IStreamRedirector.h
+Log.h
+memory_stream.h
+NetCommandParser.h
+Parseador2.h
+PrepareCommand.h
+PrintWriter.h
+ReplaceVariables.h
+ThreadPool.h
+Semaphore.h
+StreamRedirector.h
+StdAfx.h
+HashObj.h
+SocketBase.h
+SocketServerUDP.h
+SocksifiedSocket.h
+sslsocket.h
+Thread.h
+TomaMacro.h
+UniqueID.h
+FileInputStream.h
+Socket.h
+Base64Coder.h
+BigInteger.h
+Buffer.h
+BufferedReader.h
+BufferInputStream.h
+IInputStream.h
+CommandProcessor.h
+AppLevelConnection.h
+ProtectedFIFO.h
+StreamDoubleRedirector.h
+IFilterOutputStream.h
+IFilterInputStream.h
+Base64.h
+Stream.h
+Exceptions.h
+       53 archivos copiados.
+<h3>
+--------------------Configuration: CSocksifiedSocket - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\MadCat\CONFIG~1\Temp\RSP55C.tmp" with contents
+[
+wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/CSocksifiedSocket.pdb" /debug /machine:I386 /out:"Debug/CSocksifiedSocket.exe" /pdbtype:sept 
+.\Debug\PRuProxy.obj
+.\Debug\StdAfx.obj
+\miscos\stream\Debug\Streamd.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\MadCat\CONFIG~1\Temp\RSP55C.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+CSocksifiedSocket.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

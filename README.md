@@ -1,2 +1,4 @@
-# StreamLib
-Old C++ utility library
+stream
+======
+
+C++ generic library

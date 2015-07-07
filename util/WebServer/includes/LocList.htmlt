@@ -1,0 +1,23 @@
+<html>
+<body  onload="document.inputLoc.newLoc.focus();">
+
+<table>
+
+<h2>Lista de ubicaciones</h2>
+Ubicación actual: %%PADRE%%
+<tr><th> Ubicaciones </th></tr>
+%%LISTA%%
+<tr><td><a href="/LocManager1?id=%%0%%">%%1%%</a></tr>
+%%LISTA%%
+</table>
+
+%%PONER_INPUT%%
+<form method="post" action="LocManager2" name="inputLoc">
+Nombre de ubicación:<input type="text" name="newLoc" class="text" size=25 maxlength=20>
+<input type="submit" name="insertar" value="Insertar">
+<input type="hidden" name="parentLoc" value="%%id%%">
+</form>
+%%PONER_INPUT%%
+</body>
+</html>
+

@@ -1,0 +1,271 @@
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 11:48:19
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 11:48:19
+03/11/05 11:48:35 127.0.0.1 GET /ArtList?command=list 404
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 11:48:59
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 11:48:59
+03/11/05 11:49:03 127.0.0.1 GET /ArtList?command=list 500
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 11:49:27
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 11:49:27
+03/11/05 11:49:30 127.0.0.1 GET /ArtList?command=list 500
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 11:53:02
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 11:53:02
+03/11/05 11:53:04 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 11:53:07 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 11:53:17 127.0.0.1 GET /ArtList?command=cat&idcat=1 404
+03/11/05 11:53:18 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 11:53:20 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 11:53:29 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 11:53:54 127.0.0.1 GET /ArtList?command=list 200
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 12:02:57
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 12:02:57
+03/11/05 12:03:07 127.0.0.1 GET / 404
+03/11/05 12:03:10 127.0.0.1 GET /New 200
+03/11/05 12:03:23 127.0.0.1 POST /New 500
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 12:22:45
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 12:22:45
+03/11/05 12:22:49 127.0.0.1 GET /New 404
+03/11/05 12:22:54 127.0.0.1 GET /ArtList?command=list 200
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 12:23:48
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 12:23:48
+03/11/05 12:23:50 127.0.0.1 GET /ArtList?command=list 500
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 12:24:07
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 12:24:07
+03/11/05 12:24:09 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 12:24:13 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 12:24:54
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 12:24:54
+03/11/05 12:24:57 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 12:26:17
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 12:26:17
+03/11/05 12:26:19 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 12:27:52
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 12:27:52
+03/11/05 12:27:56 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+03/11/05 12:28:11 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 12:28:13 127.0.0.1 GET /ArtList?command=listcat&idcat=1 500
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 12:30:54
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 12:30:54
+03/11/05 12:30:58 127.0.0.1 GET / 200
+03/11/05 12:31:00 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 12:31:02 127.0.0.1 GET / 200
+03/11/05 12:31:03 127.0.0.1 GET /ArtList?command=listcat 200
+03/11/05 12:31:06 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 12:31:37 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+03/11/05 12:31:39 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 12:31:40 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+03/11/05 12:31:42 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+03/11/05 12:31:45 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+03/11/05 12:31:46 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+03/11/05 12:31:48 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+03/11/05 12:31:51 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+03/11/05 12:31:52 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+03/11/05 12:31:54 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+03/11/05 12:31:57 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+03/11/05 12:31:58 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 12:32:32
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 12:32:32
+03/11/05 12:32:36 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 12:33:37
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 12:33:37
+03/11/05 12:34:41 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+03/11/05 12:35:27 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+03/11/05 12:35:42 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 12:35:46 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+03/11/05 12:35:48 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 12:35:49 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+03/11/05 12:35:50 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+03/11/05 12:35:53 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+03/11/05 12:35:55 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 12:36:57
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 12:36:57
+03/11/05 12:37:00 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+03/11/05 12:37:04 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+03/11/05 12:37:06 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+03/11/05 12:37:08 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+03/11/05 12:37:11 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+03/11/05 12:37:14 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+03/11/05 12:37:16 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+03/11/05 12:37:18 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 12:37:20 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+03/11/05 12:37:20 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 12:37:23 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+03/11/05 12:37:27 127.0.0.1 GET /ArtList?command=cat&idcat=1 200
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 12:48:02
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 12:48:02
+03/11/05 12:48:05 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 12:48:07 127.0.0.1 GET /NewItem?type=buy&idart=1 404
+03/11/05 12:48:50 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 12:48:52 127.0.0.1 GET /New?type=buy&idart=1 200
+03/11/05 12:48:57 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+03/11/05 12:48:58 127.0.0.1 GET /New?type=buy&idart=%%3%% 200
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 12:53:08
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 12:53:08
+03/11/05 12:53:19 127.0.0.1 GET /index.html 200
+03/11/05 12:53:20 127.0.0.1 GET /CestList?command=list 200
+03/11/05 12:53:28 127.0.0.1 GET /CestList?command=list 200
+03/11/05 12:54:10 127.0.0.1 GET /ArtList?command=list 200
+03/11/05 12:54:14 127.0.0.1 GET /New?type=buy&idart=4 200
+03/11/05 12:54:38 127.0.0.1 GET /CestList?command=list 200
+03/11/05 12:54:46 127.0.0.1 GET /CestList?command=list 200
+03/11/05 12:54:47 127.0.0.1 GET /CestList?command=list 200
+03/11/05 12:54:49 127.0.0.1 GET /CestList?command=list 200
+03/11/05 12:55:01 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+03/11/05 12:55:03 127.0.0.1 GET /New?type=buy&idart=%%3%% 200
+
+#Software: WebApp
+#Version: 1.0
+#Date: 03/11/05 12:55:46
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 03/11/05 12:55:46
+03/11/05 12:55:54 127.0.0.1 GET /index 404
+03/11/05 12:55:59 127.0.0.1 GET /CestList?command=list 200
+03/11/05 12:56:01 127.0.0.1 GET /CestList?command=list 200
+03/11/05 12:56:16 127.0.0.1 GET /ArtList?command=listcat 200
+03/11/05 12:56:17 127.0.0.1 GET /ArtList?command=cat&idcat=2 200
+03/11/05 12:56:18 127.0.0.1 GET /New?type=buy&idart=3 200
+03/11/05 12:56:24 127.0.0.1 GET /CestList?command=list 200
+
+#Software: WebApp
+#Version: 1.0
+#Date: 08/07/06 12:04:45
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 08/07/06 12:04:45
+
+#Software: WebApp
+#Version: 1.0
+#Date: 08/07/06 12:49:22
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 08/07/06 12:49:22
+08/07/06 12:49:58 127.0.0.1 GET / 200
+08/07/06 12:49:58 127.0.0.1 GET /favicon.ico 404
+08/07/06 12:50:04 127.0.0.1 GET /.%5CTestClass?nombre=PruebaWebApp 404
+
+#Software: WebApp
+#Version: 1.0
+#Date: 08/07/06 12:50:23
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 08/07/06 12:50:23
+08/07/06 12:50:31 127.0.0.1 GET / 200
+08/07/06 12:50:32 127.0.0.1 GET /.%5CTestClass?nombre=PruebaWebApp 404
+08/07/06 12:50:56 127.0.0.1 GET / 200
+08/07/06 12:50:58 127.0.0.1 GET /TestClass?nombre=PruebaWebApp 404
+08/07/06 12:51:18 127.0.0.1 GET / 200
+08/07/06 12:51:19 127.0.0.1 GET /Test?nombre=PruebaWebApp 404
+08/07/06 12:51:35 127.0.0.1 GET /Test?nombre=PruebaWebApp 404
+08/07/06 12:52:55 127.0.0.1 GET /Test?nombre=PruebaWebApp 404
+08/07/06 12:54:55 127.0.0.1 GET /Test?nombre=PruebaWebApp 404
+
+#Software: WebApp
+#Version: 1.0
+#Date: 08/07/06 12:55:19
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 08/07/06 12:55:19
+
+#Software: WebApp
+#Version: 1.0
+#Date: 08/07/06 12:59:07
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 08/07/06 12:59:07
+08/07/06 12:59:19 127.0.0.1 GET / 200
+08/07/06 12:59:23 127.0.0.1 GET /Test?nombre=PruebaWebApp 404
+
+#Software: WebApp
+#Version: 1.0
+#Date: 08/07/06 13:00:12
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 08/07/06 13:00:12
+08/07/06 13:00:30 127.0.0.1 GET / 200
+08/07/06 13:00:32 127.0.0.1 GET /Test?nombre=PruebaWebApp 200
+08/07/06 13:00:45 127.0.0.1 GET /Test?nombre=Prueba2555 200
+
+#Software: WebApp
+#Version: 1.0
+#Date: 08/10/06 08:52:46
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 08/10/06 08:52:46
+
+#Software: WebApp
+#Version: 1.0
+#Date: 08/10/06 08:53:37
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 08/10/06 08:53:37
+
+#Software: WebApp
+#Version: 1.0
+#Date: 08/10/06 08:54:10
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 08/10/06 08:54:10
+
+#Software: WebApp
+#Version: 1.0
+#Date: 08/10/06 08:54:21
+#Fields: date time c-ip cs-mehtod cs-uri x-status
+#Start-Date: 08/10/06 08:54:21

@@ -1,0 +1,32 @@
+
+ServiceManager
+--------------
+
+Este servicio será el encargado de controlar la ejecución de aplicaciones externas. Podrá lanzar y parar diferentes ejecutables. 
+
+Estos ejecutables podrán ser de dos tipos:
+- Tipo G: Ficheros exe genéricos. cualquier ejecutable corriente.
+- Tipo X. Ejecutables que cumplan el protocolo de control de servicios de la librería Stream.
+
+Para el primer tipo de fichero el ServiceManager podrá únicamente lanzarlo y pararlo mediante un kill de sistema.
+
+En el segundo caso se tendrán disponibles más opciones. Se podrá lanzar el ejecutable y seguidamente enviar ordenes de launch, wakeup, ping y stop mediante comandos de red. El stop pararía el ejecutable. (El ping servirá para comprobar que el proceso no se ha quedado bloqueado)
+
+
+La configuración será almacenada en una BBDD. Ningún cambio en estos datos podrá realizarse desde el host, únicamente mediante una edición directa en la BBDD podrán ser modificados.
+
+
+Shedule. El host principal será el encargado de comprobar la programación de los procesos. Cada servicio tendrá unos periodos de ejecución. Estos shcedules podrán configurar la ejecución diaria y semanal de cada proceso(Por ejemplo: lanzar a las 10:00, parar a las 13:00, ejecutar L,M,X,J,V)
+
+
+KeepUp. El host principal chequeará opcionalmente si alguno de los procesos que ha lanzado se ha parado antes de tiempo. Si es así, lo relanzará. Para esto periodicamente enviará pings a todos sus procesos de tipo X. Podría ser que el ping se pudiese ser enviado y no hubiera respuesta o que el ping no pudiera ser enviado. Este segundo caso significaría que el proceso no está lanzado. El primero significaría que el proceso está bloqueado.
+
+
+El host será accesible mediante una consola telnet desde la que el oparario pueda ejecutar las ordenes. Se le debe permitir realizar las siguientes operaciones.
+- Mostrar información de procesos(Tiempo de ejecución, estado(ok,zombie,stopped)
+- WakeUp a proceso
+- Stop a proceso
+- Launch proceso
+- Ping a proceso
+
+

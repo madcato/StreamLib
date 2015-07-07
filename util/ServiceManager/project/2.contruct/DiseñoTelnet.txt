@@ -1,0 +1,10 @@
+Comandos:
+
+- List
+	Se accede a la DDBB y se muestran todos los datos de cada proceso.
+	Estos datos serían:
+		· IdProceso
+		· state(running, zombie, stopped)
+		· KeepUp(yes, no)
+
+- 
